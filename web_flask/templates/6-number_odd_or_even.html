@@ -1,0 +1,13 @@
+<!DOCTYPE hmtl>
+<html lang="en">
+  <head>
+    <title>HBNB</title>
+  </head>
+  <body>
+    {% if context.n % 2 == 0 %}
+    <h1>Number: {{ context.n }} is even</h1>
+    {% else %}
+    <h1>Number: {{ context.n }} is odd</h1>
+    {% endif %}
+  </body>
+</html>
